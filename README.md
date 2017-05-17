@@ -7,6 +7,12 @@
 * `tsne_plot.py` - Extract coefficents from the waveforms and plot the t-SNE output.
 * `tsne.py` - A Python implementation of [t-SNE](https://lvdmaaten.github.io/tsne/), written by the original author.
 
+## Requirements
+
+`wfdb`, `scipy.signal`, `numpy`, `pylab`, `pywt`, `matplotlib`, `glob`
+
+## Running the Project
+
 * **Download Data** - In the `data` folder, run `scrape.py`. In the home directory, run `separate.py` to get the positive and negative cases.
 * **Extract One Wave** - Run `filter_align.py` once for positive and once for negative cases.
 * **Get Final CSV List** - Run `ecg_to_csv.py` to get a final list of CSV files.
