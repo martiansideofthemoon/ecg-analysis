@@ -17,3 +17,24 @@
 * **Extract One Wave** - Run `filter_align.py` once for positive and once for negative cases.
 * **Get Final CSV List** - Run `ecg_to_csv.py` to get a final list of CSV files.
 * **t-SNE Plot** - Run `tsne_plot.py` to extract coefficients from CSV files and get a final 2D t-SNE plot. Follow instructions in code to generate 3D plots.
+
+Random Data
+<center>
+
+![random](results/random.png)
+
+</center>
+
+Unaligned ECG Signals
+<center>
+
+![unaligned](results/2d-unaligned.png)
+
+</center>
+
+Aligned ECG Signals
+<center>
+
+![aligned](results/2d-aligned.png)
+
+</center>
