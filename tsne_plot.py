@@ -42,6 +42,7 @@ labels = np.array(labels)
 # Uncomment below to generate random data
 # outputs = np.random.rand(len(labels), 100)
 
+# Put `no_dims=3` for 3D plots
 final = tsne(outputs, no_dims=2)
 
 # Use the following snippet for 3-D plots
